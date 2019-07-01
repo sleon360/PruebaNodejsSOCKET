@@ -5,7 +5,7 @@ const app = new Koa();
 const io = new IO();
 
 
-var req = unirest("POST", "http://localhost:3000/v1/loginUser");
+var req = unirest("POST", "http://pruebanodejsapi.herokuapp.com/v1/loginUser");
 
 io.attach(app);
 var clientes = {};
